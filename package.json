@@ -1,0 +1,19 @@
+{
+  "name": "login_practice",
+  "version": "1.0.0",
+  "description": "Practice using middleware to log in",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Julie Dyer",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "pg-promise": "^5.6.4"
+  }
+}
